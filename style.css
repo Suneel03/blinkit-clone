@@ -1,4 +1,9 @@
-
+.t{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
 .location{
 
 
@@ -209,31 +214,20 @@ td{
 
 }
 
-
-
-@media  screen and (max-width:768){
+@media screen and (max-width:768px) {
     nav{
-        flex-direction: column !important;
+     flex-direction: column;
     }
-    nav,.myrow-1,.myrow-2{
-        flex-direction: column !important;
+    .hero-sec{
+     display: none;
     }
-    .vertical-line,.hero-section>img{
-        display: none !important;
+    .myrow-1{
+     flex-direction: column;
     }
-    .nav-btns,.myrow-2>p,.search-div{
-        width:90%;
+    .myrow-2{
+     flex-direction: column;
     }
-    .myrow-1>div,.my-container,.my-categories{
-        margin-top: 20px;
-    }
-    .myrow-1>div>h2,.myrow-1>div>h4{
-        text-align: center;
-    }
-    td{
-        text-align: center;
-    }
-    .social{
-        margin-top: 10px;
-    }
-}
+ }
+
+
+
