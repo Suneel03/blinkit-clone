@@ -9,6 +9,7 @@ nav{
 
 }
 
+
 .location>h5{
     color: rgb(0, 0, 0);
     font-weight: 800;
@@ -46,6 +47,9 @@ nav{
     font-size: 14px;
     color: rgb(153, 153, 153);
 }
+.hero-section{
+     width: 90%;
+    }
  .my-cart{
     background-color: #0d831e !important;
     font-size: 14px !important;
