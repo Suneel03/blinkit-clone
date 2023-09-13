@@ -48,7 +48,8 @@ nav{
     color: rgb(153, 153, 153);
 }
 .hero-section{
-     width: 90%;
+    width: 88% !important ;
+    margin: auto;
     }
  .my-cart{
     background-color: #0d831e !important;
